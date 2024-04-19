@@ -1,0 +1,44 @@
+.portfolio {
+  background-image: url('../assets/portfolio-background.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px 0;
+  height: 100vh; 
+  transition: color 0.3s ease; 
+}
+
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  transition: background-color 0.3s ease; 
+}
+
+
+.portfolio-item {
+  width: 300px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  transition: background-color 0.3s ease; 
+}
+
+
+.portfolio-item:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.portfolio-item h3 {
+  margin-top: 0;
+  transition: color 0.3s ease;
+}
+
+.portfolio-item p {
+  margin-bottom: 0;
+}
+.portfolio h2 {
+  color: black;
+}

@@ -1,0 +1,42 @@
+.services {
+  background-image: url('../assets/services-background.jpg');
+  background-size: cover; 
+  background-position: center;
+  color: white;
+  padding: 50px 0;
+  height: 100vh; 
+  transition: background-color 0.3s ease; 
+}
+
+
+.service-card {
+  max-width: 300px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease; 
+}
+
+
+.service-card:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: scale(1.05); 
+}
+
+.service-card h3 {
+  margin-top: 0;
+  transition: color 0.3s ease; 
+}
+
+.service-card p {
+  margin-bottom: 0;
+  transition: opacity 0.3s ease; 
+}
+
+.service-card:hover p {
+  opacity: 0.8; 
+}
+.services h2 {
+  color: black;
+}
